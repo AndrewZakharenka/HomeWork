@@ -1,4 +1,4 @@
-package Array;
+package HomeWork23092020.Array;
 
 public class RaggedArray {
 

@@ -1,4 +1,4 @@
-package Operator_and_switch;
+package HomeWork23092020.Operator_and_switch;
 
 import java.util.Scanner;
 

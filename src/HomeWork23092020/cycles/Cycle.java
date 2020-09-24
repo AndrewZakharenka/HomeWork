@@ -1,4 +1,4 @@
-package cycles;
+package HomeWork23092020.cycles;
 
 public class Cycle {
     public static void main(String[] args) {
