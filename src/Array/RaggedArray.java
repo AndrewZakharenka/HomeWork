@@ -1,6 +1,6 @@
 package Array;
 
-public class Ragged_array {
+public class RaggedArray {
 
     public static void main(String[] args) {
         TwoDimensionalArray arr = new TwoDimensionalArray();
