@@ -3,7 +3,7 @@ package Array;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Two_dimensional_array {
+public class TwoDimensionalArray {
     static Random random = new Random();
     static int max = 15, min = 0;
 
@@ -28,16 +28,16 @@ public class Two_dimensional_array {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n, m;
+        int row, column;
         System.out.println("Enter the size of the array");
         System.out.print("Input n: ");
-        n = in.nextInt();
+        row = in.nextInt();
         System.out.println();
         System.out.print("Input m: ");
-        m = in.nextInt();
+        column = in.nextInt();
         System.out.println();
 
-        int[][] array = new int[n][m];
+        int[][] array = new int[row][column];
 
         array = fillArray(array);
 

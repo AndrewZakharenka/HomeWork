@@ -3,7 +3,7 @@ package Array;
 public class Ragged_array {
 
     public static void main(String[] args) {
-        Two_dimensional_array arr = new Two_dimensional_array();
+        TwoDimensionalArray arr = new TwoDimensionalArray();
         int[][] array = new int[7][];
 
         for (int i = 0; i < array.length; i++){
