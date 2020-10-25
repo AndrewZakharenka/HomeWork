@@ -8,17 +8,7 @@ public class Main {
 
         try {
             car1.start();
-        } catch (CarIsNotEngineStartException e) {
-            e.printStackTrace();
-        }
-
-        try {
             car2.start();
-        } catch (CarIsNotEngineStartException e) {
-            e.printStackTrace();
-        }
-
-        try {
             car3.start();
         } catch (CarIsNotEngineStartException e) {
             e.printStackTrace();
